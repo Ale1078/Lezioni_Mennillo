@@ -1,7 +1,12 @@
-a = "10" 
-b = "12"
+a = 12
+b = 15
+
+somma = a + b
+differenza = a - b
+prodotto = a * b
+quoziente = a / b
 
 print("Somma:", somma)
-print("Sottrazione", sottrazione)
-print("Divisione", divisione)
-print("Moltiplicazione",moltiplicazione)
+print("Sottrazione", differenza)
+print("Divisione", quoziente)
+print("Moltiplicazione",prodotto)
