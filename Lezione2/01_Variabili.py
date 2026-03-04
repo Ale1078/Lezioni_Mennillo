@@ -10,3 +10,10 @@ print("Somma:", somma)
 print("Sottrazione", differenza)
 print("Divisione", quoziente)
 print("Moltiplicazione",prodotto)
+
+
+pi = 3.14159
+temperatura = 21.5
+
+print(float(pi))
+print(float(temperatura))
