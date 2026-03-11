@@ -21,7 +21,7 @@ cognomeAmica = "Ponte"
 etàAmica = 42
 corsoAmica = "Tec info"
 altezzaAmica = 1.72
-presenzaAmica = True
+presenzaAmica = False
 
 print(f"Ciao, la mia amica è {nomeAmica} {cognomeAmica}. Lei è la responsabile del corso {corsoAmica} e ha {etàAmica} anni.")
 
@@ -29,3 +29,8 @@ if presenzaAmica:
     print(f"Anche {nomeAmica} è presente.")
 else:
     print(f"Oggi {nomeAmica} non è presente.")
+
+if etàAmica < 60:
+    print(f"{nomeAmica} è ancora giovane")
+else:
+    print(f"{nomeAmica} non è più cosi giovane")
